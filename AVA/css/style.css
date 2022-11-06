@@ -54,7 +54,8 @@ main {
     margin: 20px auto;
     background-color: rgba(0, 159, 162, 255);
     box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
-    min-height: 25vh;
+    min-height: 15vh;
+    max-height: 30vh;
 
 }
 
@@ -80,11 +81,6 @@ main {
     border-bottom: 2px solid rgba(58, 58, 58, 0.5);
 }
 
-.img-setas {
-    width: 50px;
-}
-
-
 .rodape {
     position: fixed;
     width: 100vw;
@@ -102,74 +98,4 @@ main {
     flex-direction: row;
     width: 50px;
     padding: 10px 20px;
-}
-
-.atividade-navegacao {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    width: 100%;
-    height: 20vh;
-    margin: 0 auto;
-}
-
-.atividade-lista {
-    margin: 10px 0;
-    border: 2px solid black;
-    border-radius: 25px;
-    margin: 15px;
-}
-
-.data_limite-envio {
-    padding: 20px;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.container-tarefas {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-
-}
-
-.container-nome_atividade {
-    margin: 0 auto;
-}
-
-.horario-entrega_atividade {
-    padding: 10px;
-    font-size: 1.8rem;
-}
-
-.titulo-tipo_atividade {
-    font-size: 2.5rem;
-    text-align: center;
-    margin: 10px auto;
-}
-
-.img-tarefa {
-    padding: 10px;
-    width: 75px;
-}
-
-.container-botao {
-    display: flex;
-    padding: 20px;
-    justify-content: flex-end;
-}
-
-.botao-enviar_atividade {
-    display: flex;
-    padding: 15px;
-    font-size: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.897);
-    border: 2px solid black;
-    border-radius: 5px;
-    justify-content: center;
-    width: 30%;
-}
-
-.atividades-ul {
-    display: flex;
-    flex-direction: column;
 }

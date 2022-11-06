@@ -1,0 +1,158 @@
+html {
+    font-family: 'Lucida Sans';
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background-image: url('./background.jpg');
+    background-size: cover;
+}
+
+.login_container {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 40%;
+    max-height: 95%;
+    max-width: 20%;
+    min-width: 15%;
+    background-color: rgba(19, 159, 163, 255);
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
+}
+
+.logo_insted {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    border-bottom: 2px solid rgba(58, 58, 58, 0.5);
+}
+
+.logo_insted img {
+    width: 50%;
+}
+
+.login_text {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.897);
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    margin-block-end: 0;
+}
+
+.form_campos {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.89);
+    padding: 10px;
+}
+
+.form_campos input {
+    border: none;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    outline: 0;
+    border: 2px solid rgba(63, 61, 61, 0.5);
+    background: rgba(255, 255, 255, 0.685);
+}
+
+.form_campos input:focus {
+    background: rgba(255, 255, 255, 0.89);
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.form_checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.custom-checkbox {
+    -webkit-appearance: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.281);
+    padding: 10px;
+    margin: 0 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-checkbox:checked {
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 0;
+}
+
+.custom-checkbox:checked:after {
+    content: '\2714';
+    color: rgba(19, 159, 163, 255);
+}
+
+.custom-checkbox:focus {
+    outline: none;
+}
+
+.botao-container {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    border-bottom: 2px solid rgba(58, 58, 58, 0.5);
+}
+
+.botao-login {
+    width: 50%;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.89);
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.911);
+    transition: all 0.5s ease-in-out;
+    outline: 0;
+
+}
+
+.botao-login:hover {
+    box-shadow: 0px 4px 35px -5px rgba(255, 255, 255, 0.644);
+    cursor: pointer;
+}
+
+.botao-login:active {
+    outline: none;
+    font-size: 1.75rem;
+}
+
+.esqueci-senha {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 700px) {
+    .login_container {
+        width: 90vw;
+        max-width: 90vw;
+        max-height: 60vh;
+    }
+}

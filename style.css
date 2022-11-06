@@ -1,69 +1,164 @@
-html{
+html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.corpo{
+
+.corpo {
     display: flex;
     flex-direction: column;
 }
-.container-cabecalho{
+
+.container-cabecalho {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    background: rgb(39,157,160);
+    background: rgb(39, 157, 160);
 }
-.perfil-nome{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+
+.perfil-nome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-    .menu-icon{
-        padding: 0 15px;
-    }
-    .img-perfil{
-        border: 2px solid #000000;
-        border-radius: 50%;
-        width: 100px;
-        margin: 20px;
-    }
-    .nome-aluno{
-        color: aliceblue;
-        font-size: 2rem;
-    }
-main{
+
+.menu-icon {
+    padding: 0 15px;
+}
+
+.img-perfil {
+    padding: 0 10px;
+    width: 100px;
+    margin: 20px;
+}
+
+.img-perfil:hover {
+    cursor: pointer;
+}
+
+.nome-aluno {
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+main {
     margin-bottom: 75px;
 }
-.painel{
+
+.painel {
     display: flex;
-    border-radius: 25px;
-    width: calc(100vw - 80px);
+    border-radius: 10px;
+    width: calc(100vw - 20px);
     justify-content: center;
     flex-direction: column;
     margin: 20px auto;
-    background-color: aliceblue;
+    background-color: rgba(0, 159, 162, 255);
 
 }
-.titulos_containers{
-    font-size: 1.8rem;
+
+.titulos_containers {
+    font-size: 2rem;
+    color: white;
 }
-.img-painel_infos{
+
+.img-painel_infos {
     width: 90%;
     margin: 20px auto;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-.cabecalho_containers{
-    display: flex; 
+
+.cabecalho_containers {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     padding: 10px;
-    background-color:rgb(39,157,160);
+    margin: 0 20px;
+    background-color: rgba(0, 159, 162);
+    border-bottom: 2px solid rgba(58, 58, 58, 0.5);
 }
-.img-setas{
+
+.img-setas {
     width: 50px;
 }
-.materias-navegacao{
+
+.painel.horarios nav{
+    display: flex;
+    justify-content: start;
+    max-height: 15vh;
+    overflow: auto
+}
+
+.cabecalho_containers .dia-semana {
+    padding: 0 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container_horario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0 15px;
+    margin: 5px 0;
+}
+
+.relogio-borda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.relogio-borda img {
+    padding: 0 10px;
+}
+
+.relogio-borda h3 {
+    padding-left: 20px;
+}
+
+.relogio-borda img {
+    width: 35px;
+}
+
+.container_materia-professor {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_materia-professor .materia {
+    font-size: 2.2rem;
+}
+
+.container_materia-professor .coluna {
+    padding: 20px 0 20px 25px;
+    height: 75px;
+}
+
+.texto-materia-professor {
+    padding: 20px 0 20px 20px;
+}
+
+.nome-professor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nome-professor h3 {
+    font-size: 1.5rem;
+}
+
+.nome-professor img {
+    width: 15px;
+    padding: 10px;
+}
+
+.materias-navegacao {
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -71,14 +166,16 @@ main{
     height: 20vh;
     margin: 20px auto;
     flex-wrap: nowrap;
-    
+
 }
-.materias-ul{
+
+.materias-ul {
     display: flex;
     flex-wrap: nowrap;
-    
+
 }
-.capa{
+
+.capa {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,86 +184,102 @@ main{
     background-color: rgb(143, 225, 240);
     border-radius: 25px;
 }
-.titulo-curso-semestre{
+
+.titulo-curso-semestre {
     display: flex;
     font-size: 2.5rem;
     justify-content: center;
     margin: 10px auto;
 }
-.titulo-materia{
+
+.titulo-materia {
     font-size: 1.8rem;
     padding: 10px;
 
 }
-.materias-li{
+
+.materias-li {
     width: 65vw;
     height: 85%;
     margin: 15px;
     border: 2px solid black;
     border-radius: 25px;
 }
-.rodape{
-    position:fixed;
+
+.rodape {
+    position: fixed;
     width: 100vw;
-    bottom:0;
-    background-color: rgb(39,157,160);
+    bottom: 0;
+    background-color: rgba(0, 159, 162);
 }
-.rodape-navegacao{
+
+.rodape-navegacao {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.rodape-icon{
+
+.rodape-icon {
     flex-direction: row;
     width: 50px;
     padding: 10px 20px;
 }
-.atividade-navegacao{
+
+.atividade-navegacao {
     overflow-y: scroll;
     overflow-x: hidden;
     width: 100%;
     height: 20vh;
     margin: 0 auto;
 }
-.atividade-lista{
+
+.atividade-lista {
     margin: 10px 0;
     border: 2px solid black;
     border-radius: 25px;
     margin: 15px;
 }
-.data_limite-envio{
+
+.data_limite-envio {
     padding: 20px;
     font-size: 2rem;
     font-weight: bold;
 }
-.container-tarefas{
+
+.container-tarefas {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
 
 }
-.container-nome_atividade{
+
+.container-nome_atividade {
     margin: 0 auto;
 }
-.horario-entrega_atividade{
+
+.horario-entrega_atividade {
     padding: 10px;
     font-size: 1.8rem;
 }
-.titulo-tipo_atividade{
+
+.titulo-tipo_atividade {
     font-size: 2.5rem;
     text-align: center;
     margin: 10px auto;
 }
-.img-tarefa{
-    padding:10px;
+
+.img-tarefa {
+    padding: 10px;
     width: 75px;
 }
-.container-botao{
+
+.container-botao {
     display: flex;
     padding: 20px;
     justify-content: flex-end;
 }
-.botao-enviar_atividade{
+
+.botao-enviar_atividade {
     display: flex;
     padding: 15px;
     font-size: 1.5rem;
@@ -176,7 +289,8 @@ main{
     justify-content: center;
     width: 30%;
 }
-.atividades-ul{
+
+.atividades-ul {
     display: flex;
     flex-direction: column;
 }

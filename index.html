@@ -1,42 +1,119 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Home</title>
-        <meta charset="UTF-8">
-        <link rel="icon" type="image/x-icon" href="/favicon.png">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="./reset.css">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    
-    <body class="corpo">
-        <header class = "container-cabecalho">
-            <img class="menu-icon" src="./menu-icon.png">
-            <div class="perfil-nome">
-                <h2 class="nome-aluno">Pedro Almeida</h2>
-                <img class="img-perfil" src="./perfil.png"></div>   
-        </header>
-        <main>
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="corpo">
+    <header class="container-cabecalho">
+        <img class="menu-icon" src="./menu-icon.png">
+        <div class="perfil-nome">
+            <h2 class="nome-aluno">Pedro Almeida</h2>
+            <img class="img-perfil" src="./perfil.png">
+        </div>
+    </header>
+    <main>
         <section class="painel infos">
-            <div class= "cabecalho_containers infos">
+            <div class="cabecalho_containers infos">
                 <h3 class="titulos_containers infos">Avisos</h3>
             </div>
-            <img class = "img-painel_infos"src="./painel-infos.jpg">
+            <img class="img-painel_infos" src="./painel-infos.jpg">
         </section>
         <section class="painel horarios">
-            <div class= "cabecalho_containers horarios">
+            <div class="cabecalho_containers horarios">
                 <h3 class="titulos_containers horarios">Horário de aula</h3>
                 <p class="dia-semana">Segunda-Feira</p>
             </div>
-            <img class = "img-painel_infos" src="./horario.png">
+            <nav>
+                <ul>
+                    <li class="container_horario">
+                        <div class="relogio-borda">
+                            <img src="./relogio-icon.png">
+                            <div class="horario-aula">
+                                <h3>19:00</h3>
+                            </div>
+                        </div>
+                        <div class="container_materia-professor">
+                            <img class="coluna" src="./coluna.png">
+                            <div class="texto-materia-professor">
+                                <h3 class="materia">Projeto Integrador II</h3>
+                                <div class="nome-professor">
+                                    <img src="./teacher.png" alt="Ícone professor">
+                                    <h3>Ana Claudia Pedro Ândreo</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="container_horario">
+                        <div class="relogio-borda">
+                            <img src="./relogio-icon.png">
+                            <div class="horario-aula">
+                                <h3>19:00</h3>
+                            </div>
+                        </div>
+                        <div class="container_materia-professor">
+                            <img class="coluna" src="./coluna.png">
+                            <div class="texto-materia-professor">
+                                <h3 class="materia">Projeto Integrador II</h3>
+                                <div class="nome-professor">
+                                    <img src="./teacher.png" alt="Ícone professor">
+                                    <h3>Ana Claudia Pedro Ândreo</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="container_horario">
+                        <div class="relogio-borda">
+                            <img src="./relogio-icon.png">
+                            <div class="horario-aula">
+                                <h3>19:00</h3>
+                            </div>
+                        </div>
+                        <div class="container_materia-professor">
+                            <img class="coluna" src="./coluna.png">
+                            <div class="texto-materia-professor">
+                                <h3 class="materia">Projeto Integrador II</h3>
+                                <div class="nome-professor">
+                                    <img src="./teacher.png" alt="Ícone professor">
+                                    <h3>Ana Claudia Pedro Ândreo</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="container_horario">
+                        <div class="relogio-borda">
+                            <img src="./relogio-icon.png">
+                            <div class="horario-aula">
+                                <h3>19:00</h3>
+                            </div>
+                        </div>
+                        <div class="container_materia-professor">
+                            <img class="coluna" src="./coluna.png">
+                            <div class="texto-materia-professor">
+                                <h3 class="materia">Projeto Integrador II</h3>
+                                <div class="nome-professor">
+                                    <img src="./teacher.png" alt="Ícone professor">
+                                    <h3>Ana Claudia Pedro Ândreo</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
         </section>
         <section class="painel materias">
-            <div class= "cabecalho_containers materias">
+            <div class="cabecalho_containers materias">
                 <h3 class="titulos_containers materias">Matérias Recentes</h3>
                 <div class="container-setas">
                     <img class="img-setas" src="./seta_esquerda-icon.png">
                     <img class="img-setas" src="./seta_direita-icon.png">
-                </div>    
+                </div>
             </div>
             <nav class="materias-navegacao">
                 <ul class="materias-ul">
@@ -67,7 +144,7 @@
             </nav>
         </section>
         <section class="painel atividade">
-            <div class= "cabecalho_containers atividade">
+            <div class="cabecalho_containers atividade">
                 <h3 class="titulos_containers atividade">Linha do tempo</h3>
             </div>
             <nav class="atividade-navegacao">
@@ -79,7 +156,8 @@
                             <img class="img-tarefa painel-icon" src="./task-icon.png">
                             <nav class="container-nome_atividade">
                                 <ul>
-                                    <li><h4 class="titulo-tipo_atividade">Exercício de compreensão</h4>
+                                    <li>
+                                        <h4 class="titulo-tipo_atividade">Exercício de compreensão</h4>
                                         <p class="titulo-materia">Programação Orientada à objetos</p>
                                     </li>
                                 </ul>
@@ -96,7 +174,8 @@
                             <img class="img-tarefa painel-icon" src="./task-icon.png">
                             <nav class="container-nome_atividade">
                                 <ul>
-                                    <li><h4 class="titulo-tipo_atividade">Exercício de compreensão</h4>
+                                    <li>
+                                        <h4 class="titulo-tipo_atividade">Exercício de compreensão</h4>
                                         <p class="titulo-materia">Programação Orientada à objetos</p>
                                     </li>
                                 </ul>
@@ -106,24 +185,25 @@
                             <button class="botao-enviar_atividade">Enviar atividade</button>
                         </div>
                     </li>
-                
+
                 </ul>
             </nav>
-            
-           
-        </section>
-        </main> 
-        <section class="rodape">
-            <nav class="rodape-navegacao">
-                <img class="img-home rodape-icon" src="./home-icon.png">
-                <img class="img-calendar rodape-icon" src="./calendar-icon.png">
-                <img class="img-relogio rodape-icon" src="./relogio-icon.png">
-                <img class="img-notas rodape-icon" src="./notas-icon.png">
-            </nav>
-            
-        </section>
-    </body>
-    <footer>
 
-    </footer>
+
+        </section>
+    </main>
+    <section class="rodape">
+        <nav class="rodape-navegacao">
+            <img class="img-home rodape-icon" src="./home-icon.png">
+            <img class="img-calendar rodape-icon" src="./calendar-icon.png">
+            <img class="img-relogio rodape-icon" src="./relogio-icon.png">
+            <img class="img-notas rodape-icon" src="./notas-icon.png">
+        </nav>
+
+    </section>
+</body>
+<footer>
+
+</footer>
+
 </html>

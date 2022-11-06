@@ -7,7 +7,7 @@
 .painel.horarios nav {
     display: flex;
     padding: 10px 0;
-    max-height: 15vh;
+    max-height: 20vh;
     overflow: auto
 }
 .painel.horarios ul {
@@ -20,8 +20,8 @@
 }
 
 .cabecalho_containers .dia-semana {
-    padding: 0 10px;
-    font-size: 1.8rem;
+    text-align: center;
+    font-size: 2rem;
     font-weight: bold;
 }
 

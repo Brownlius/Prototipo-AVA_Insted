@@ -36,7 +36,7 @@ html {
     cursor: pointer;
 }
 
-.nome-aluno {
+.nome-aluno {text-align: center;
     color: aliceblue;
     font-size: 2rem;
 }
@@ -48,17 +48,18 @@ main {
 .painel {
     display: flex;
     border-radius: 10px;
-    width: calc(100vw - 20px);
+    width: calc(100vw - 40px);
     justify-content: center;
     flex-direction: column;
     margin: 20px auto;
     background-color: rgba(0, 159, 162, 255);
+    box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
     min-height: 15vh;
 
 }
 
 .titulos_containers {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
 }
 
@@ -74,9 +75,8 @@ main {
     align-items: center;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    padding: 10px;
-    margin: 0 20px;
-    background-color: rgba(0, 159, 162);
+    padding: 20px;
+    background-color: rgba(16, 159, 163);
     border-bottom: 2px solid rgba(58, 58, 58, 0.5);
 }
 

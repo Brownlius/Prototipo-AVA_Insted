@@ -4,6 +4,8 @@ html {
 
 body {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     background-image: url('./background.jpg');
     background-size: cover;
@@ -20,7 +22,6 @@ body {
     min-width: 15%;
     background-color: rgba(19, 159, 163, 255);
     border-radius: 5px;
-    margin: auto;
     box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
 }
 

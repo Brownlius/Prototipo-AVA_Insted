@@ -23,12 +23,13 @@ html {
 
 .menu-icon {
     padding: 0 15px;
+    width: 80px;
 }
 
 .img-perfil {
-    padding: 0 10px;
-    width: 100px;
-    margin: 20px;
+    padding: 0 15px;
+    width: 80px;
+    margin: 20px 0;
 }
 
 .img-perfil:hover {
@@ -52,6 +53,7 @@ main {
     flex-direction: column;
     margin: 20px auto;
     background-color: rgba(0, 159, 162, 255);
+    min-height: 15vh;
 
 }
 
@@ -80,82 +82,6 @@ main {
 
 .img-setas {
     width: 50px;
-}
-
-.painel.horarios nav{
-    display: flex;
-    justify-content: start;
-    max-height: 15vh;
-    overflow: auto
-}
-
-.cabecalho_containers .dia-semana {
-    padding: 0 10px;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.container_horario {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding: 0 15px;
-    margin: 5px 0;
-}
-
-.relogio-borda {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.relogio-borda img {
-    padding: 0 10px;
-}
-
-.relogio-borda h3 {
-    padding-left: 20px;
-}
-
-.relogio-borda img {
-    width: 35px;
-}
-
-.container_materia-professor {
-    display: flex;
-    flex-direction: row;
-}
-
-.container_materia-professor .materia {
-    font-size: 2.2rem;
-}
-
-.container_materia-professor .coluna {
-    padding: 20px 0 20px 25px;
-    height: 75px;
-}
-
-.texto-materia-professor {
-    padding: 20px 0 20px 20px;
-}
-
-.nome-professor {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-
-.nome-professor h3 {
-    font-size: 1.5rem;
-}
-
-.nome-professor img {
-    width: 15px;
-    padding: 10px;
 }
 
 .materias-navegacao {

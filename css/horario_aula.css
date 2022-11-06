@@ -1,0 +1,82 @@
+.container_horario {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.painel.horarios nav {
+    display: flex;
+    padding: 10px 0;
+    max-height: 15vh;
+    overflow: auto
+}
+.painel.horarios ul {
+    width: 100%;
+}
+.painel.horarios li {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.cabecalho_containers .dia-semana {
+    padding: 0 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.relogio-borda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.relogio-borda img {
+    padding: 0 10px;
+    width: 45px;
+}
+
+.relogio-borda h3 {
+    padding-left: 20px;
+}
+
+
+.container_materia-professor {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container_materia-professor .materia {
+    font-size: 3.5rem;
+}
+
+.container_materia-professor .coluna {
+    padding: 20px 0 20px 25px;
+    height: 100%;
+}
+
+.texto-materia-professor {
+    padding: 20px 0 20px 20px;
+    
+}
+
+.nome-professor {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome-professor h3 {
+    font-size: 2.2rem;
+}
+
+.nome-professor img {
+    width: 25px;
+    padding: 10px;
+}

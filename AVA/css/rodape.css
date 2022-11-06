@@ -1,0 +1,18 @@
+.rodape {
+    position: fixed;
+    width: 100vw;
+    padding: 20px 0;
+    bottom: 0;
+    background-color: rgba(0, 159, 162, 255);
+}
+
+.rodape-navegacao {
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+
+.rodape-icon {
+    width: 50px;
+}

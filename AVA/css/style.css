@@ -42,7 +42,7 @@ html {
 }
 
 main {
-    margin-bottom: 75px;
+    margin-bottom: 100px;
 }
 
 .painel {
@@ -81,21 +81,3 @@ main {
     border-bottom: 2px solid rgba(58, 58, 58, 0.5);
 }
 
-.rodape {
-    position: fixed;
-    width: 100vw;
-    bottom: 0;
-    background-color: rgba(0, 159, 162);
-}
-
-.rodape-navegacao {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.rodape-icon {
-    flex-direction: row;
-    width: 50px;
-    padding: 10px 20px;
-}

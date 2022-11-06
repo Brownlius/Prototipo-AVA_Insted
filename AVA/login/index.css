@@ -152,8 +152,9 @@ body {
 
 @media screen and (max-width: 700px) {
     .login_container {
-        width: 90vw;
+        min-width: 80vw;
         max-width: 90vw;
-        max-height: 60vh;
+        min-height: 55vh;
+        max-height: 75vh;
     }
 }

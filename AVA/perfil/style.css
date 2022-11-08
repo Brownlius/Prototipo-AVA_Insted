@@ -17,11 +17,6 @@ html {
     font-weight: bold;
 }
 
-.section-img_perfil {
-    border-bottom: 2px solid rgba(58, 58, 58, 0.5);
-
-}
-
 .container-img_perfil {
     background-color: rgb(39, 157, 160);
     box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
@@ -79,10 +74,20 @@ html {
     padding: 0 5px;
 }
 
-.container_contato h2 {
+.container-info_curso {
+    display: flex;
+    margin: 10px;
+    line-height: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.informacoes h2 {
     display: flex;
     justify-content: center;
-    padding: 15px 0;
+    padding: 5px 0;
     font-size: 1.3rem;
     font-weight: bold;
 }
@@ -91,7 +96,7 @@ html {
     display: flex;
     flex-direction: column;
     line-height: 2rem;
-    
+
 }
 
 .informacao-individual {
@@ -103,4 +108,47 @@ html {
     padding: 0 10px;
     font-size: 1rem;
     font-weight: bold;
+}
+
+.container-alteracao_senha {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(39, 157, 160);
+
+    box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
+    margin: 10px;
+    border-radius: 5px;
+    height: 40vh;
+}
+
+.alteracao_senha h2 {
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.form_campos {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.897);
+    padding: 10px;
+}
+
+.form_campos input {
+    border: none;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    outline: 0;
+    border: 2px solid rgba(63, 61, 61, 0.5);
+    background: rgba(255, 255, 255, 0.685);
+}
+
+.form_campos input:focus {
+    background: rgba(255, 255, 255, 0.897);
+    border: 2px solid rgba(255, 255, 255, 0);
 }

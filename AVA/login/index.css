@@ -52,7 +52,7 @@ body {
 .form_campos {
     display: flex;
     flex-direction: column;
-    color: rgba(255, 255, 255, 0.897);
+    color: rgba(155, 129, 129, 0.897);
     padding: 10px;
 }
 

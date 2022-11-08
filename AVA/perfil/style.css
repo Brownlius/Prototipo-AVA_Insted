@@ -5,15 +5,102 @@ html {
 .cabecalho {
     display: flex;
     background-color: rgb(39, 157, 160);
-    padding: 10px 20px;
+    padding: 20px;
 }
 
 .cabecalho .seta {
-    width: 35px;
+    width: 30px;
 }
 
 .cabecalho h2 {
-    margin: auto;
+    padding-left: 35px;
     font-weight: bold;
-    text-transform: uppercase;
+}
+
+.section-img_perfil {
+    border-bottom: 2px solid rgba(58, 58, 58, 0.5);
+
+}
+
+.container-img_perfil {
+    background-color: rgb(39, 157, 160);
+    box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px 0;
+}
+
+.container_perfil-editar {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.imagem-perfil_editar {
+    position: relative;
+}
+
+.container_perfil-editar .img-perfil {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.container_perfil-editar .img-botao_editar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.info-perfil {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.info-perfil h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.container-cidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icon-mapa {
+    width: 20px;
+    padding: 0 5px;
+}
+
+.container_contato h2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.informacoes-contatos {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    
+}
+
+.informacao-individual {
+    display: flex;
+    flex-direction: row;
+}
+
+.informacoes-contatos h3 {
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: bold;
 }

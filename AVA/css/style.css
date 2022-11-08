@@ -66,11 +66,15 @@ main {
 }
 
 .container-img_info {
-    margin:  auto;
+    margin: auto;
     padding: 15px;
+
+    overflow-y: scroll;
 }
 
-.container-img_info img {width: 100%;}
+.container-img_info img {
+    width: 100%;
+}
 
 .cabecalho_containers {
     display: flex;

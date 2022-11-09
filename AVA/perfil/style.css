@@ -77,46 +77,22 @@ html {
 .container-info_curso {
     display: flex;
     margin: 10px;
-    line-height: 1.5rem;
+    line-height: 2rem;
     text-align: center;
     justify-content: center;
     flex-direction: column;
 
 }
-
-.informacoes h2 {
-    display: flex;
-    justify-content: center;
-    padding: 5px 0;
-    font-size: 1.3rem;
-    font-weight: bold;
+.container-info_curso h2{
+font-weight: bold;
+font-size: 1.5rem;
 }
-
-.informacoes-contatos {
-    display: flex;
-    flex-direction: column;
-    line-height: 2rem;
-
-}
-
-.informacao-individual {
-    display: flex;
-    flex-direction: row;
-}
-
-.informacoes-contatos h3 {
-    padding: 0 10px;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
 .container-alteracao_senha {
     display: flex;
     justify-content: start;
     text-align: center;
     flex-direction: column;
     background-color: rgb(39, 157, 160);
-
     box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
     margin: 10px;
     border-radius: 5px;
@@ -131,6 +107,7 @@ html {
 
 .form_campos {
     display: flex;
+    text-align: start;
     flex-direction: column;
     color: rgba(255, 255, 255, 0.897);
     padding: 10px;
@@ -151,4 +128,28 @@ html {
 .form_campos input:focus {
     background: rgba(255, 255, 255, 0.897);
     border: 2px solid rgba(255, 255, 255, 0);
+}
+
+
+.botao-login {
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.897);
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.911);
+    transition: all 0.5s ease-in-out;
+    outline: 0;
+
+}
+
+.botao-login:hover {
+    box-shadow: 0px 4px 35px -5px rgba(255, 255, 255, 0.644);
+    cursor: pointer;
+}
+
+.botao-login:active {
+    outline: none;
+    font-size: 1.75rem;
 }

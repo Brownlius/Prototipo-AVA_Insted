@@ -1,3 +1,7 @@
+.painel.atividade {
+    height: 525px;
+}
+
 .atividade-navegacao {
     overflow-y: scroll;
     overflow-x: hidden;
@@ -9,24 +13,25 @@
 .atividade-lista {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     border-radius: 10px;
+    height: 400px;
     margin: 15px;
     background-color: rgba(255, 255, 255, 0.897);
-    box-shadow: -5px 4px 15px rgba(15, 193, 199, 0.445);
-}
-
-.data_limite-envio {
-    padding: 50px;
-    text-align: center;
-    font-size: 2.2rem;
-    font-weight: bold;
 }
 
 .container-data_limite-envio {
     background-color: rgb(253, 191, 75);
     border-radius: 10px;
 }
+
+.data_limite-envio {
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+    font-size: 2.2rem;
+}
+
 
 .titulo-tipo_atividade {
     font-weight: bold;

@@ -96,7 +96,6 @@ font-size: 1.5rem;
     box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
     margin: 10px;
     border-radius: 5px;
-    height: 40vh;
 }
 
 .alteracao_senha h2 {
@@ -133,6 +132,7 @@ font-size: 1.5rem;
 
 .botao-login {
     width: 50%;
+    margin-bottom: 15px;
     padding: 0.5rem;
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.897);

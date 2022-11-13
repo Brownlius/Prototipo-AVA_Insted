@@ -22,7 +22,7 @@ html {
 }
 
 .nome-aluno {
-font-weight: bold;
+    font-weight: bold;
     text-transform: uppercase;
     color: black
 }

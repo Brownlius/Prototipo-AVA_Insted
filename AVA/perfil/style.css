@@ -1,5 +1,6 @@
 html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(238, 238, 238);
 }
 
 .cabecalho {
@@ -18,8 +19,6 @@ html {
 }
 
 .container-img_perfil {
-    background-color: rgb(39, 157, 160);
-    box-shadow: -5px 4px 15px rgba(25, 127, 131, 0.445);
     border-radius: 5px;
     margin: 10px;
     padding: 15px 0;
@@ -28,7 +27,6 @@ html {
 .container_perfil-editar {
     display: flex;
     justify-content: center;
-    margin: 10px 0;
 }
 
 .imagem-perfil_editar {
@@ -54,6 +52,9 @@ html {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    background-color: rgb(39, 157, 160);
+    border-radius: 5px;
+    padding: 15px 0;
 }
 
 .info-perfil h2 {
@@ -83,10 +84,12 @@ html {
     flex-direction: column;
 
 }
-.container-info_curso h2{
-font-weight: bold;
-font-size: 1.5rem;
+
+.container-info_curso h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
+
 .container-alteracao_senha {
     display: flex;
     justify-content: start;
